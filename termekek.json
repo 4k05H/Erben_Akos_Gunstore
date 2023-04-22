@@ -1,0 +1,25 @@
+{
+  "termekek": [
+    {
+      "kep": "cm028.jpg",
+      "nev": "CYMA cm.028",
+      "tipus": "AEG",
+      "replika": "AK47",
+      "ár" : 50000
+    },
+    {
+      "kep": "cm028u.jpg",
+      "nev": "CYMA cm.028U",
+      "tipus": "AEG",
+      "replika": "AK47",
+      "ár" : 50000
+    },
+    {
+      "kep": "cm617.jpg",
+      "nev": "CYMA cm.617",
+      "tipus": "AEG",
+      "replika": "M4",
+      "ár" : 50000
+    }
+  ]
+}

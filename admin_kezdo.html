@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erben Ákos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h1>ADMIN FELÜLET</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Kezdőlap</a></li>
+                    <li><a href="admin_kezdo.html" class="active">Admin felület</a></li>
+                    <li><a href="rolunk.html">Rólunk</a></li>
+                    <li><a href="kosar.html">🛒</a></li>
+                </ul>
+                <div>
+                    <h2>OPCIÓK</h2>
+                    <ul>
+                        <li><a href="admin_elemek.html">+</a></li>
+                        <li><a href="admin_kezdo.html" class="active">elemek</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        
+
+        <div>
+            <h2>KÉP</h2>
+        </div>
+
+        <form action="/action_page.php">
+            <div class="formdiv">
+                <label for="furl">kép url-je:</label><br><input type="text" id="furl" name="furl">
+            </div>
+        </form>
+            
+        <div>
+            <h2>LEÍRÁS</h2>
+        </div>
+
+        
+
+        <form action="/action_page.php">
+            <div class="formdiv">
+                <label for="fnev">NÉV:</label><br><input type="text" id="fnev" name="fnev">
+            </div>
+            <div class="formdiv">
+                <label for="ftipus">TÍPUS:</label><br><input type="text" name="ftipus" id="ftipus">
+            </div>
+            <div class="formdiv">
+                <label for="freplika">REPLIKA:</label><br><input type="text" id="freplika" name="freplika">
+            </div>
+            <div class="formdiv">
+                <label for="far">ÁR:</label><br><input type="number" id="far" name="far" min="0">
+            </div>
+        </form>
+        <button class="hozzaad">Hozzáadás</button>
+
+        <form action="/action_page.php">
+            <label for="fszur">SZŰRÉS</label><br><input type="text" name="fszur" id="fszur">
+        </form>
+
+        
+        <table class="admin">
+            <tr>
+                <th class="balth">Kép</th>
+                <th class="kozepth">Név</th>
+                <th class="kozepth">Típus</th>
+                <th class="kozepth">Replika</th>
+                <th class="kozepth">Ár</th>
+                <th class="jobbth">Törlés</th>
+            </tr>
+        </table>
+        
+        <footer>
+            <p>© All rights reserved!</p>            
+        </footer>
+    </main>
+</body>
+</html>
